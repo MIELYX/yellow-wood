@@ -276,7 +276,8 @@ input[type='number'] {
 div[class='mce_inline_error'] {
 	position: absolute;
 	bottom: -15px;
-	left: 0;
+	left: -10px;
+	font-weight: 400 !important;
 	color: #e85c41 !important;
 	font-family: 'Rubik', sans-serif;
 	background-color: transparent !important;
