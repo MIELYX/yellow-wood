@@ -14,11 +14,11 @@ let images = [] // Images Array
 let time = 4000 // Time Between Switch
 
 // Image List
-images[0] = './img/image1.png'
+images[0] = './img/image5.png'
 images[1] = './img/image2.png'
 images[2] = './img/image3.png'
 images[3] = './img/image4.png'
-images[4] = './img/image5.png'
+images[4] = './img/image1.png'
 images[5] = './img/image6.png'
 images[6] = './img/image7.png'
 images[7] = './img/image8.png'
