@@ -351,6 +351,10 @@ div[class=mce_inline_error] {
   background-color: #e85c41 !important;
 }
 
+.padding {
+  padding: 1.6rem 2.4rem !important;
+}
+
 .title {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
