@@ -1,0 +1,131 @@
+@use './colors' as *;
+.title {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	line-height: 1.5em;
+	text-align: center;
+	color: $primary-color;
+	&-h1 {
+		font-size: 2.8rem;
+		color: $secondary-color;
+	}
+	&-h2 {
+		font-size: 2.4rem;
+	}
+	&-h3 {
+		font-size: 2rem;
+		font-weight: 600;
+	}
+	&-country {
+		font-size: 4rem;
+		color: $secondary-color;
+	}
+	&-questions {
+		font-size: 3.6rem;
+	}
+	&-form {
+		max-width: 913px;
+		font-size: 2.4rem;
+		line-height: 1.35em;
+		&--yellow {
+			color: $teritary-color;
+		}
+	}
+	&-moment {
+		padding: 0 40px;
+		font-size: 3.2rem;
+		color: $secondary-color;
+	}
+}
+
+.text {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 1.67em;
+	text-align: center;
+	color: $primary-text-color;
+	&-hero {
+		padding-top: 1.6rem;
+		padding-bottom: 4rem;
+		font-size: 1.2rem;
+		color: $secondary-color;
+		max-width: 370px;
+	}
+	&-about {
+		font-size: 1.4rem;
+	}
+	&-questions,
+	&-form {
+		font-size: 1.6rem;
+	}
+	&-footer {
+		font-size: 1.2rem;
+		color: $secondary-color;
+	}
+	&-label {
+		font-size: 1.4rem;
+		font-weight: 500;
+		&--thin {
+			font-weight: 400;
+			color: $form-color;
+		}
+		&--thin2 {
+			font-weight: 400;
+		}
+	}
+}
+
+@media (min-width: 576px) {
+	.title {
+		&-h1,
+		&-questions {
+			font-size: 4.8rem;
+		}
+		&-h2 {
+			font-size: 3.6rem;
+		}
+		&-form {
+			font-size: 2.8rem;
+		}
+		&-moment {
+			font-size: 6.4rem;
+		}
+	}
+	.text {
+		&-hero {
+			font-size: 1.6rem;
+			padding-bottom: 6rem;
+			max-width: 530px;
+		}
+		&-our-story {
+			font-size: 1.6rem;
+		}
+		&-questions,
+		&-form {
+			font-size: 1.8rem;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.title {
+		&-h1 {
+			font-size: 5.6rem;
+		}
+		&-h2 {
+			font-size: 4rem;
+		}
+		&-form {
+			font-size: 3.6rem;
+		}
+		&-moment {
+			font-size: 8rem;
+		}
+	}
+	.text {
+		&-hero {
+			font-size: 1.8rem;
+		}
+	}
+}
