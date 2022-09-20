@@ -352,11 +352,16 @@ div[class=mce_inline_error] {
 }
 
 .btn-form {
+  clear: both;
+  width: auto;
+  display: block;
+  margin: 1em 0 1em 5%;
   font-size: 14px;
   line-height: 14px;
   font-weight: 600;
   border: none;
   padding: 16px 32px !important;
+  background-color: #ff0000;
 }
 
 .title {
@@ -618,6 +623,7 @@ body {
   display: block;
   text-align: left;
   padding-bottom: 0.8rem;
+  margin: 0;
 }
 .form__label--mod {
   margin-top: 0;
